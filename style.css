@@ -1,0 +1,159 @@
+#title,#company_name{
+	text-align: center;
+	font-size: 30px;
+	color: blue;
+	font-weight: 300;
+	
+	text-transform: uppercase;
+	font-family: 'Palette Mosaic', cursive;
+
+}
+#bg1
+{
+	background-color:#957dad;
+	text-align: center;
+	width: 300px;
+	height: 300px;
+
+box-sizing: border-box;
+margin: 10px;
+	
+
+}
+#bg2{
+	background-color:palegreen;
+	text-align: center;
+width: 300px;
+	height: 300px;
+	
+	box-sizing: border-box;
+margin: 10px;
+	
+
+}
+#bg3{
+	background-color:#e0bbe4;
+	text-align: center;
+width: 300px;
+	height: 300px;box-sizing: border-box;
+margin: 10px;
+	
+
+}
+.container {
+	display: grid;
+    grid-gap:20px;
+}
+html,body{
+	background-color:#d291bc;
+	font-family:cursive;
+
+}
+.item1:hover{
+	background-color:#fec8d8;
+	font-size: 1.5em;
+	border:1 px solid black;
+	border-width: 2px;
+}
+.item2:hover{
+	background-color:#d291bc;
+	font-size: 1.5em;
+	border:1 px solid black;
+	border-width: 2px;
+}
+.item3:hover{
+	background-color:#957dad;
+	font-size: 1.5em;
+	border:1 px solid black;
+	border-width: 2px;
+}
+
+
+
+}
+nav{
+	background-color:#e0bbe4;
+}
+
+img{
+	height: 90px;
+	width: 90px;
+}
+ .bg{
+ 	border-color: cyan;
+ }
+ #title_logo{
+ 	font-size: 2em;
+ }
+
+
+
+
+.content{
+	boxsizing: border-box;
+	text-align: justify;
+	background-color:lightyellow;
+	color: green;
+	font-family: cursive;
+	
+}
+
+h3{
+	font-family: sans-serif;
+	color: brown;
+	text-align: center;
+}
+
+
+
+
+@media(max-width:767px){
+
+.item1{
+	background-color:lavender;
+	
+}
+.item2{
+	background-color:dimgrey;
+
+}
+.item3{
+	background-color:lightyellow;
+
+
+
+}
+#company_name,#title{
+	text-align: center;
+	font-size:130%;
+	color: blue;
+	
+	text-transform: uppercase;
+}
+}
+ 
+
+
+.buffer{
+	height: 50px;
+}
+
+.color-panel{
+	background-color:#fec8d8;
+
+}
+a{
+	text-align: center;
+	font-color: black;
+}
+ section{
+        	text-align: center;
+        }
+        .navbar-nav {
+    margin-left: auto;
+}
+.col-md-12,.col-sm-12,.col-xs-12,.col-lg-12{
+	box-sizing: border-box;
+	marging: 20px;
+	padding: 20px;
+}
